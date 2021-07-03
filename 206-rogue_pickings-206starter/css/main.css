@@ -9,7 +9,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: wrap;
-
 }
 
 .container {
@@ -51,13 +50,14 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-flow: row wrap; 
-	flex-basis: 100%;
+	flex-flow: row wrap; 	
+	width: 100%;                     
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0;
+	
 }
 header h1 span {
 	color: #77a466;
@@ -66,20 +66,25 @@ header h1 span {
 header nav {
 	padding: 46px 0;
 }
+
 header nav ul {
 	margin: 0;
-	padding: 0;
+	padding: 0;	
 }
+
 header nav ul li {
+	list-style: none;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 10px;
-	display: inline;
+	padding: 0 10px;	        
 }
-header nav ul li a{
+
+header nav ul li a {
 	text-decoration: none;
 	color:#77a466;
+	justify-content: center;
+	align-items: center;	
 }
 
 /*The widths are in a percentage!*/
@@ -117,12 +122,15 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	border-top: 1px solid #eee;
+	align-content: center;
+	
 }
 
 .section-one h3 {
-	padding: 10px 0;
+	
+	
 }
 
 .section-two {
@@ -132,27 +140,31 @@ header nav ul li a{
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 0;
 }
 
 .menu {
 	list-style: none;
 	padding: 0;
+	
 }
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
+	
 }
 
 .reviews {
 	color: #333;
 	font-size: 1em;
 	line-height: 21px;
+	padding: 0;
 }
 
 .address {
 	font-size: 1em;
 	line-height: 24px;
+	padding: 0;
 }
 
 /*The widths are in a percentage!*/
@@ -164,7 +176,6 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	flex-flow: row wrap;
-	flex-basis: auto;
 	width: 100%;
 }
 footer span {
