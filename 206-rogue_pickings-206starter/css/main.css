@@ -202,10 +202,12 @@ footer span {
  .section-two,
  .section-three {
 	width: 100%;
+	align-content: space-around;
  }
 
 .section-one {
-	width: 33%;	
+	width: 33%;
+		
 }
 
 .section-two {
