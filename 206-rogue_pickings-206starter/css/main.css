@@ -195,14 +195,14 @@ footer span {
  .bottom-section {
 	 display: flex;
 	 border-top: 1px solid #eee;
-	 align-items: flex-start;	 
+	 align-items: flex-start;
+	 justify-content: space-between;	 
  } 
 
  .section-one,
  .section-two,
  .section-three {
 	width: 100%;
-	align-content: space-around;
  }
 
 .section-one {
