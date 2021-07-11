@@ -74,6 +74,7 @@ header nav {
 	line-height: 1em;
 	padding-top: 20px;
 	padding-bottom: 10px;
+	text-align: center;
 	
 }
 
@@ -215,10 +216,11 @@ footer span {
 	border-right: 1px solid #eee;
 	text-align: left;
 	width: 33%;
+	padding: 0 20px;
 }
 
 .section-two h3 {
-	text-align: center;
+	
 }
 
 .section-three {
